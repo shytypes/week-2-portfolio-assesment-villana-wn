@@ -18,10 +18,39 @@
   </head>
   <body>
     <!-- Header Area -->
-    <header></header>
+    <header>Sylvia Plath's Portfolio</header>
+    <img
+    src="https://pyxis.nymag.com/v1/imgs/1c1/09e/2455d16e2c3fa7dbd833b9abe35ea02582-24-sylvia-plath.rsquare.w700.jpg"
+    alt="MyInspiration" class="circle-image">
+
     <!-- Main Area -->
     <main>
-      <h1>My Amazing Portfolio</h1>
-    </main>
+      <p>Sylvia Plath is a poet,novelist and short-story writer.<br>Her major works are:
+        <ul>
+          <li>The Bell Jar</li>
+          <li>Ariel</li>
+          <li>The Collected Poems</li>
+        </ul>
+        Through every word she seeks clarity,honesty and a voice for emotions too wild
+        for the spoken world.<br>Sylvia Plath is preferred because she brings beauty to the mundane. 
+        She will always get the job!
+
+      </p>
+      </main>
+      <div class="contact-container">
+        <h1>Contact Me</h1>
+        <form id="contact-form">
+          <input type ="text" id="first-name" placeholder="First Name" required>
+          <input type ="text" id="second-name" placeholder="Second Name" required>
+          <input type ="email" id="email" placeholder="Your email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        </div>
+
+        <div id="submitted-data"></div>
+  
+  <script src="script.js"></script>
+    
   </body>
 </html>

@@ -3,6 +3,42 @@
   margin: 0px;
   padding: 0px;
 }
+body{color: rgb(236, 237, 239);background-color: rgb(55,27,7);font-size: 'JetBrains Mono';font-size: 18px;}
+header{font-size: 70px;}
+.circle-image{
+ width: 200px; 
+ height:200px;
+ object-fit: cover;
+ border-radius: 50%;
+
+ position:absolute;
+ top:80px;
+ left:10px;
+
+ border:3px solid rgb(243, 243, 243)
+}
+main{
+  position:absolute;
+  top:100px;
+  left:250px;
+}
+.contact-container{
+  background-color:rgb(55,27,7);
+  padding:30px;
+  border-radius: 8px;
+  width:300px;
+  margin: auto;
+
+  position:absolute;
+  top:300px;
+  left:300px;
+}
+.submitted-data{
+  background-color: #eee;
+  padding: 15px;
+  border-radius:5px
+  
+}
 
 /*title text style*/
 /* the font-family 'JetBrains Mono', has been linked
